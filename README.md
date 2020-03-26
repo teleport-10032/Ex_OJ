@@ -81,7 +81,7 @@ nohup python3 /var/www/html/judger/demo/judger.py
 >
 >目前只支持C，其实C++原理是一样的，JAVA可能稍麻烦点
 >
->Dbq我懒了
+>dbq我懒了
 >
 >什么？为什么不做演示站？
 >
