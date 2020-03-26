@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    40% {opacity: 0;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#wrapper {
+    animation: fade-in;/*动画名称*/
+    animation-duration: 0.6s;/*动画持续时间*/
+    -webkit-animation:fade-in 0.6s;/*针对webkit内核*/
+
+}
+body{
+    background-color: #eeeeee;
+}
+nav{
+
+    box-shadow:0px 2px 6px 0px #666;
+
+}
+#nav-center li:hover{
+    color: #349cf3;
+    border-bottom: 3px solid #349cf3;
+}
+.navbar-right li a{
+    outline: none;
+    color: #000;
+    border: 1px solid #dfe0e3;
+    border-radius: 20px;
+    height: 40px;
+    padding-top:10px;
+    margin-top: 5px;
+}
+#nav-right li a {
+    outline: none;
+}
+#nav-right li a:hover{
+    color: #349cf3;
+    border: 1px solid #31a8fe;
+}
+ul#nav-center li.reactive{
+    border-bottom: 3px solid #f8f8f8;
+}
+ul#nav-center li.reactive:hover{
+    border-bottom: 3px solid #31a8fe;
+}
+#nav-center  li:hover a{
+    color:#349cf3;
+}
+
+/*导航栏部分完成*/
+
+.container{
+    width: 80%;
+    margin-top:30px;
+}
+.item {
+    width: 100%;
+    height: 300px;
+}
+
+.item img {
+    width: 100%;
+    height:100%;
+}
+
+
+/*article与h3*/
+/*幻灯片*/
+article{
+    background-color: #ffffff;
+    width: 80%;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0 0 2px #666;
+    height: 300px;
+    border-radius: 10px;
+}
+article h1{
+    margin-left: 25px;
+    color: #2db7f5;
+}
+article caption{
+    margin-bottom: 25px;
+}
+article table{
+    margin: 0 auto;
+    width:90%;
+    font-size: 1.3em;
+}
+article table tr{
+    height: 40px;
+    border-bottom: 1px solid #d1d1d1;
+}
+article table caption{
+    font-size: 1.5em;
+
+}
+.page{
+    position: relative;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+footer {
+    margin-top: 40px;
+}
+/*下拉菜单*/
+.dropdown-menu{
+    width: 50px;
+}
+/*登录注册部分
+.modal-body{
+    background-color: rgba(255, 255, 255, 0.07);
+}
+.modal-body input{
+    width: 200px;
+    height: 40px;
+    margin:5px;
+    border: 1px solid rgba(181, 181, 181, 0.82);
+    border-radius: 20px;
+    outline: none;
+
+
+}
+.modal-body input:focus{
+    border:none;
+    box-shadow:0 0 10px #6ca3ec;
+}
+.modal-dialog{
+    width: 500px;
+}
+*/

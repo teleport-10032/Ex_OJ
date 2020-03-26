@@ -1,0 +1,10 @@
+article{
+    height: 1800px;
+}
+footer{
+	clear: both;
+	margin-bottom: 50px;
+}
+#page{
+    float: right;
+}
