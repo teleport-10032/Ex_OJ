@@ -90,3 +90,4 @@ nohup python3 /var/www/html/judger/demo/judger.py
 >////////////////
 >
 >江湖路远，有缘再见！
+>哦对了，您要是想看看长啥样可以参考项目根目录中的说明书
