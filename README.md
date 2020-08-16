@@ -1,6 +1,6 @@
-# 一个正在开发的onlineJudge系统
+# 一个尚未完善的onlineJudge系统
 
->​	这是一个基于lamp环境的在线判题系统。前端使用Bootstrap，后台使用php，judger使用python+c,部分地方使用了开源项目[Lo-runner](https://github.com/dojiong/Lo-runner)。
+>​	这是一个基于lamp环境的在线判题系统。前端使用Bootstrap，后台使用php，judger使用python,部分地方使用了开源项目[Lo-runner](https://github.com/dojiong/Lo-runner)。
 >
 >​	功能方面有问题列表，比赛列表，rank，admin等等常规的东西。
 >
