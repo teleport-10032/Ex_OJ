@@ -26,7 +26,7 @@
 
 
 
-3.找一个空间充足的路径，下载数据库文件并解压,给足权限。我图方便直接777了，各位爷看着点给
+3.找一个空间充足的路径，下载数据库文件并解压,给足权限。
 
 ` wget test.k423.tech/ex_oj_mysql_data.zip&&unzip ex_oj_mysql_data.zip&&chmod -R 777 ex_oj_mysql_data`
 
