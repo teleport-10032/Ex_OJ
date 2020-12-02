@@ -1,4 +1,4 @@
-# 一个尚不成熟的onlineJudge系统
+# 一个尚未成熟的onlineJudge系统
 
 >​	这是一个基于lamp环境的在线判题系统。前端使用Bootstrap，后台使用php，judger使用python,部分地方使用了开源项目[Lo-runner](https://github.com/dojiong/Lo-runner)。
 >
